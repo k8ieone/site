@@ -1,0 +1,7 @@
+title: Kate's site
+baseURL: https://k8ie.one/
+languageCode: en-us
+
+params:
+  github: https://github.com/k8ieone/
+  cv: false

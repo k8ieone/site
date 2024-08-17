@@ -1,8 +1,4 @@
----
-title: Kate's personal site
----
-
-{%- include head.html -%}
+{{ partial "head.html" . }}
 
 <style>
 /* Create a Parallax Effect */
@@ -45,7 +41,7 @@ title: Kate's personal site
 </head>
 <body>
 
-{%- include header.html -%}
+{{ partial "header.html" . }}
 
 <!-- First Parallax Image with Logo Text -->
 <div class="bgimg-1 w3-display-container w3-opacity-min" id="top">
@@ -137,7 +133,7 @@ function myFunction() {
 }
 </script>
 
-{%- include footer.html -%}
+{{ partial "footer.html" . }}
 
 </body>
 </html>

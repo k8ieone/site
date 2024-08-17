@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="{{ or site.Language.LanguageCode }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
+  <head>
+  {{ partial "head.html" . }}
+  </head>
+  <body class="w3-light-grey">
+    <!-- TODO: <header> -->
+    {{ partial "header.html" . }}
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        {{ block "main" . }}{{ end }}
+      </div>
+    </main>
+
+  </body>
+
+</html>
