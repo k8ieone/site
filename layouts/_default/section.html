@@ -1,0 +1,50 @@
+{{ define "main" }}
+  <!-- w3-content defines a container for fixed size centered content,
+  and is wrapped around the whole page content, except for the footer in this example -->
+  <div class="w3-content" style="max-width:1400px">
+
+    <!--
+    TODO: Show this if there are no posts in the section
+    <div class="w3-container w3-padding-32 w3-display-middle w3-center">
+      <h1>This category has no posts :(</h1>
+      <p class="w3-opacity">yet...</p>
+    </div>
+    -->
+    <!-- Header -->
+    <header class="w3-container w3-center w3-padding-32" id="top">
+      <h1><b>MY {{ .Title | strings.ToUpper }}</b></h1>
+      <h3>Welcome to <span class="w3-tag">Kate</span>'s {{ .Title }}</h3>
+      <h5>{{ .Summary }}</h5>
+    </header>
+
+    <!-- Grid -->
+    <div class="w3-row">
+
+    <!-- Blog entries -->
+    <div class="w3-col 18 s12">
+    {{ range .Pages }}
+      <!-- Blog entry -->
+      <div class="w3-card-4 w3-margin w3-white">
+        <div class="w3-container">
+          <h3><a href="{{ .RelPermalink }}"><b>{{ .LinkTitle }}</b></a></h3>
+          <h5>{{ .Description }}<span class="w3-opacity w3-right">Post date</span></h5>
+        </div>
+
+        <div class="w3-container">
+          <p>{{ .Summary }}</p>
+          <div class="w3-row">
+          </div>
+        </div>
+      </div>
+      <hr>
+    {{ end }}
+    <!-- END BLOG ENTRIES -->
+    </div>
+
+    <!-- END GRID -->
+    </div><br>
+  {{ partial "footer.html" . }}
+
+  <!-- END w3-content -->
+  </div>
+{{ end }}
