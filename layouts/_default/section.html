@@ -27,7 +27,7 @@
       <div class="w3-card-4 w3-margin w3-white">
         <div class="w3-container">
           <h3><a href="{{ .RelPermalink }}"><b>{{ .LinkTitle }}</b></a></h3>
-          <h5>{{ .Description }}<span class="w3-opacity w3-right">Post date</span></h5>
+          <h5>{{ .Description }}<span class="w3-opacity w3-right">{{ .Date | time.Format "Jan 2 15:04:05 2006" }}</span></h5>
         </div>
 
         <div class="w3-container">
