@@ -1,123 +1,60 @@
+<head>
 {{ partial "head.html" . }}
-
-<style>
-/* Create a Parallax Effect */
-.bgimg-1, .bgimg-2, .bgimg-3 {
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-/* First image (Logo. Full height) */
-.bgimg-1 {
-  background-image: url("https://www.w3schools.com/w3images/parallax1.jpg");
-  min-height: 100%;
-}
-
-/* Second image (Portfolio) */
-.bgimg-2 {
-  background-image: url("https://www.w3schools.com/w3images/parallax2.jpg");
-  min-height: 400px;
-}
-
-/* Third image (Contact) */
-.bgimg-3 {
-  background-image: url("https://www.w3schools.com/w3images/parallax3.jpg");
-  min-height: 400px;
-}
-
-.w3-wide {letter-spacing: 10px;}
-.w3-hover-opacity {cursor: pointer;}
-
-/* Turn off parallax scrolling for tablets and phones */
-@media only screen and (max-device-width: 1600px) {
-  .bgimg-1, .bgimg-2, .bgimg-3 {
-    background-attachment: scroll;
-    min-height: 400px;
-  }
-}
-</style>
 </head>
 <body>
 
 {{ partial "header.html" . }}
 
+<style>
+/* First image (Logo. Full height) */
+.splashthingy {
+  background: #000000;
+  min-height: 100%;
+}
+.w3-hover-opacity {cursor: pointer;}
+</style>
+
 <!-- First Parallax Image with Logo Text -->
-<div class="bgimg-1 w3-display-container w3-opacity-min" id="top">
-  <div class="w3-display-middle" style="white-space:nowrap;">
-    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">HI, I'M KATE!</span>
+<div class="splashthingy w3-display-container w3-opacity-min" id="top">
+  <div class="w3-container w3-center w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-text-white w3-animate-opacity w3-jumbo"><p>Hello!</p></span>
+    <span class="w3-text-white w3-animate-opacity w3-large"><p>I'm Kate.</p></span>
+    <p><button class="w3-button w3-border" onclick="window.location.href='#about';"><b>More about me</b></button></p>
   </div>
 </div>
-
 <!-- Container (About Section) -->
 <div class="w3-content w3-container w3-padding-64" id="about">
-  <h3 class="w3-center">ABOUT ME</h3>
+  <h1 class="w3-center">About me</h1>
   <div class="w3-row">
     <div class="w3-col m6 w3-center w3-padding-large">
-      <p><b><i class="fa fa-user w3-margin-right"></i>My Profile Picture</b></p><br>
-      <img src="https://avatars.githubusercontent.com/u/28711937?v=4" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="250" height="250">
+      <img src="https://avatars.githubusercontent.com/u/28711937?v=4" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Profile picture" width="250" height="250">
     </div>
 
-    <!-- Hide this text on small devices -->
-    <div class="w3-col m6 w3-hide-small w3-padding-large">
-      <p>Welcome to my website. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
-        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <div class="w3-col w3-center m6 w3-padding-large">
+      <p>I work as a DevOps engineer. It is both my job and main hobby.</p>
+      <p>I self-host a decent amount of <a href="https://mcld.eu">services</a> at home.</p>
+      <p>Otherwise I enjoy photography, 3D modeling in Blender, flying FPV drones and pretty much anything FOSS.</p>
+      <p>I'm also a huge privacy supporter (both in general and online). Companies these days have no shame.</p>
+      <p>I have a <a href="/blog">Blog</a> where I talk about some of the things that interest me. I welcome you to take a look.</p>
     </div>
-  </div>
-  <p class="w3-large w3-center w3-padding-16">Im really good at:</p>
-  <p class="w3-wide"><i class="fa fa-server"></i>Infrastructure Administration</p>
-  <div class="w3-light-grey">
-    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:90%">90%</div>
-  </div>
-  <p class="w3-wide"><i class="fa fa-camera"></i>Photography</p>
-  <div class="w3-light-grey">
-    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:75%">75%</div>
-  </div>
-  <p class="w3-wide"><i class="fa fa-globe"></i>Web Design</p>
-  <div class="w3-light-grey">
-    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:5%">5%</div>
-  </div>
 </div>
+<hr>
 
-<div class="w3-row w3-center w3-dark-grey w3-padding-16">
-  <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">14+</span><br>
-    Years of experience
-  </div>
-  <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">69+</span><br>
-    Abandoned projects
-  </div>
-  <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">400+</span><br>
-    Hours spent on Stellaris
-  </div>
-  <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">7500+</span><br>
-    Reddit karma
-  </div>
+<div class="w3-content w3-container w3-padding-64" id="contacts">
+  <h1 class="w3-center">Where to find me</h1>
+  <p class="w3-center">On most sites you'll find me under the handle <em>k8ie</em> or less commonly <em>k8ieone</em>.</p><br>
+  <!--TODO: Grid with links to my profiles-->
 </div>
-
-<!-- Second Parallax Image with Portfolio Text -->
-<div class="bgimg-2 w3-display-container w3-opacity-min">
-  <div class="w3-display-middle">
-    <span class="w3-xxlarge w3-text-white w3-wide">PORTFOLIO</span>
-  </div>
-</div>
+<hr>
 
 <!-- Container (Portfolio Section) -->
-<div class="w3-content w3-container w3-padding-64" id="portfolio">
-  <h3 class="w3-center">MY WORK</h3>
-  <p class="w3-center"><em>Here are some of my latest lorem work ipsum tipsum.</em></p><br>
-</div>
-
-<!-- Third Parallax Image with Portfolio Text -->
-<div class="bgimg-3 w3-display-container w3-opacity-min">
-  <div class="w3-display-middle">
-     <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
-  </div>
+<div class="w3-content w3-center w3-container w3-padding-64" id="wip">
+  <h1>Work in progress</h1>
+  <p>This part of the site is still under construction.</p>
+  <i class="fa fa-triangle-exclamation w3-jumbo"></i>
+  <br>
+  <!--<h1 class="w3-center">My work</h1>-->
+  <!--<p class="w3-center">These are some of my projects.</p><br>-->
 </div>
 
 {{ partial "footer.html" . }}
