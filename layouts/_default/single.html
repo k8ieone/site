@@ -5,13 +5,13 @@
 
   <!-- Header -->
   <header class="w3-container w3-center w3-padding-32" id="top">
-    <h1><b>{{ .Title | strings.ToUpper }}</b></h1>
+    <h1><b>{{ .Title }}</b></h1>
     <h3>{{ .Description }}</h3>
     <h5><span class="w3-opacity">{{ .Date | time.Format "Jan 2 2006" }}</span></h5>
     <h6 class="w3-opacity">Tags: 
       {{ $taxonomy := "tags" }} {{ with .Param $taxonomy }}
         {{ range $index, $tag := . }} {{ with $.Site.GetPage (printf "/%s/%s" $taxonomy $tag) -}}
-          <a href="{{ .Permalink }}">{{ $tag | urlize }}</a>
+          <a href="{{ .RelPermalink }}">{{ $tag | urlize }}</a>
         {{- end -}} {{- end -}}
       {{ end }}
     </h6>

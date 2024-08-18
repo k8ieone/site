@@ -1,19 +1,10 @@
 {{ define "main" }}
-  <!-- w3-content defines a container for fixed size centered content,
-  and is wrapped around the whole page content, except for the footer in this example -->
-  <div class="w3-content" style="max-width:1400px">
-
-    <!--
-    TODO: Show this if there are no posts in the section
-    <div class="w3-container w3-padding-32 w3-display-middle w3-center">
-      <h1>This category has no posts :(</h1>
-      <p class="w3-opacity">yet...</p>
-    </div>
-    -->
+  {{ partial "listing_p1.html" . }}
     <!-- Header -->
     <header class="w3-container w3-center w3-padding-32" id="top">
-      <h1><b>{{ .Title | strings.ToUpper }}</b></h1>
-      <h5>{{ .Summary }}</h5>
+      <h1><b>{{ .Title }}</b></h1>
+      <h5>{{ .Description }}</h5>
+      <h6 class="w3-opacity">{{ .Summary }}</h6>
     </header>
 
     <!-- Grid -->
@@ -34,6 +25,7 @@
           <h5>{{ .Count }} Posts<span class="w3-opacity w3-right">Last post: {{ .Page.Date | time.Format "Jan 2 2006" }}</span></h5>
         </div>
       </div>
+      <!-- END ENTRY -->
       <hr>
     {{ end }}
     <!-- END BLOG ENTRIES -->

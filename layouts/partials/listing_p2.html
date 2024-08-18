@@ -1,0 +1,28 @@
+<!-- Grid -->
+<div class="w3-row">
+
+<!-- Entries -->
+<div class="w3-col 18 s12">
+{{ range .Pages }}
+  <!-- Entry -->
+  <div class="w3-card-4 w3-margin w3-white">
+    <div class="w3-container">
+      <h3><a href="{{ .RelPermalink }}"><b>{{ .LinkTitle }}</b></a></h3>
+      <h5>{{ .Description }}</h5>
+    </div>
+
+    <div class="w3-container">
+      <p>{{ .Summary }}</p>
+      <h5><span class="w3-opacity w3-right">Published: {{ .Date | time.Format "Jan 2 2006" }}</span></h5>
+      <div class="w3-row">
+      </div>
+    </div>
+  </div>
+  <!-- END ENTRY -->
+  <hr>
+{{ end }}
+<!-- END ENTRIES -->
+</div>
+
+<!-- END GRID -->
+</div><br>
