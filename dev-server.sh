@@ -1,4 +1,5 @@
 #!/bin/bash
 SITE_SRC="$PWD"
 
-docker run -it --volume="$SITE_SRC:/src" -p 4000:4000 jekyll/jekyll bash -c 'cd /src && bundler install && jekyll serve'
+docker run -it --rm --mount type=bind,src="$SITE_SRC",target=/src -p 1313:1313 ghcr.io/hugomods/hugo:latest sh -c 'cd /src && hugo server --bind 0.0.0.0 --disableFastRender'
+

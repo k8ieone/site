@@ -1,9 +1,10 @@
 #!/bin/bash
-SITE_SRC="$HOME/site"
-SITE_DST="/srv/site"
+SITE_SRC="$PWD"
+SITE_DST="$PWD/build"
 
-docker create --cidfile "/tmp/jekyllcid" --volume="$SITE_DST:/dst" jekyll/jekyll bash -c 'chown 1000:1000 -R /src && jekyll build --source /src --destination /dst'
-docker cp "$SITE_SRC" "$(cat /tmp/jekyllcid):/src/"
-docker start -i -a "$(cat /tmp/jekyllcid)"
-docker container rm "$(cat /tmp/jekyllcid)"
-rm /tmp/jekyllcid
+
+docker create --cidfile "/tmp/hugocid" --volume="$SITE_DST:/dst" ghcr.io/hugomods/hugo:latest sh -c "chown $UID:$GID -Rv /src && cd /src/site && hugo --destination /dst"
+docker cp "$SITE_SRC" "$(cat /tmp/hugocid):/src"
+docker start -i -a "$(cat /tmp/hugocid)"
+docker container rm "$(cat /tmp/hugocid)"
+rm /tmp/hugocid
