@@ -1,4 +1,8 @@
 #!/bin/sh
-echo `pwd`
-echo "Generating site with Hugo for $PWD"
-hugo --destination /site/build --cleanDestinationDir
+if [ "$DEPLOY" == "1" ]; then
+  echo `pwd`
+  echo "Generating site with Hugo for $PWD"
+  hugo --destination /site/build --cleanDestinationDir
+else
+  echo "Not deploying"
+fi
