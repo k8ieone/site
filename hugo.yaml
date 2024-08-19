@@ -3,5 +3,9 @@ baseURL: https://k8ie.one/
 languageCode: en-us
 capitalizeListTitles: false
 
+services:
+  rss:
+    limit: -1
+
 taxonomies:
   tag: tags
