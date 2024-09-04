@@ -74,7 +74,7 @@ This is where the perfect life ended.
 I didn't expect much to change. I'd go to work, go back home, have some free time, do some chores and go to sleep.
 
 
-But a lot has changed. Those chores I mentioned happen to take up a lot more of the free time I was used to than I expected.
+But a lot has changed. Those chores I mentioned happen to take up a lot more of the free time that I was used to having than I expected.
 
 
 We're both still figuring out how to live on our own. Mainly I am.
