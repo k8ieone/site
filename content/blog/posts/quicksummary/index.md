@@ -1,18 +1,11 @@
 ---
 title: A Quick Summary of Everything that happened
 description: Let's get this over with
+summary: My last post is from ~2 years ago. That's a long time. I'd like to give a brief (I'll try, I swear) overview of everything important that happened.
 date: 2024-08-19T23:42:31+02:00
 tags:
 - life
 ---
-
-# So how is life?
-
-My last post is from ~2 years ago. That's a long time.
-
-
-I'd like to give a brief (I'll try, I swear) overview of everything important that happened.
-
 
 ## University
 
