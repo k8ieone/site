@@ -1,12 +1,12 @@
 ---
 title: I'm Back!
-description: It's been a while...
+summary: |
+  It's been a while... But I'm back!
+  New static site generator, newfound passion for working on the site!
 date: 2024-08-18
-tags:
-- life
 ---
 
-# What happened?
+## What happened?
 
 I guess I just lost interest?
 After I initially got the site running with Jekyll ~2 years ago I was really happy with it.
