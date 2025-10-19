@@ -1,5 +1,6 @@
 title: Kate's site
 baseURL: https://k8ie.one/
+theme: tesk-hugo-port
 languageCode: en-us
 capitalizeListTitles: false
 
