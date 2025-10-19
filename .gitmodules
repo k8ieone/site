@@ -1,3 +1,4 @@
 [submodule "themes/tesk-hugo-port"]
 	path = themes/tesk-hugo-port
 	url = ssh://git@codeberg.org/k8ie/tesk-hugo-port.git
+	branch = the-chosen-one
