@@ -1,12 +1,25 @@
 ---
 title: The GNOME Music Player Situation
-description: I've just about had enough!
+summary: I've just about had enough!
 date: 2022-07-28
+lastmod: 2025-11-08
 tags:
 - technology
 - gnome
 - mpd
+params:
+  disclaimer: |
+    1. You're looking at a very old post. My understanding of GTK and related
+    technologies has moved forward quite a bit. Proceed with a grain of salt.
+    2. The [mphandy](https://github.com/k8ieone/mphandy) project has been
+    archived due to my lack of understanding of GTK technologies at the time.
+    3. As of {{< last_updated >}} the music streaming situation seems to remain
+    pretty much the same, I'm not aware of any lightweight and adaptive music streaming
+    applications which would be able to stream from Subsonic servers. Personally
+    I started using [Mopidy with the mobile extension](https://mopidy.com/ext/mobile/).
 ---
+
+## Intro
 
 Alright, it's no secret that I like GNOME.
 I like how the interface looks by default,
@@ -15,6 +28,8 @@ Windows-like workflow.
 I like that they're going for convergence between handheld and desktop devices
 (and they're succeeding in that I think). Seriously libhandy is so cool!
 
+
+## The problem
 
 Now why the frustration? My frustration comes from a pretty niche place I think.
 I need a music player. Easy, right? `gnome-music` has you covered!
@@ -53,6 +68,7 @@ It's about media **discovery**. This means it's probably just for sourcing metad
 Although I's still not sure exactly, it's hard to tell
 when there's a proposed Twitter plugin that is supposed to function as a full Twitter client.
 
+## Plan of action
 
 So now what? From my research it's obvious that there isn't a project
 that would be easily extensible yet modern (GTK4, libhandy, etc.).
@@ -94,6 +110,7 @@ And I already did! Here's my first ever GTK4 program!
 
 Alright, as you can tell, it needs... work... But I think I can get there eventually!
 I'm calling it *mphandy* (I know, I'm terrible with names) for now, I just couldn't think of anything better.
+The project is available on [GitHub](https://github.com/k8ieone/mphandy).
 
 
 Talking with MPD is very simple, the GUI is the part that will take most of my time (and sanity).
