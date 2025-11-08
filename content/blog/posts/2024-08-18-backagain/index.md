@@ -5,6 +5,8 @@ summary: |
   New static site generator, newfound passion for working on the site!
 date: 2024-08-18
 lastmod: 2025-11-08
+tags:
+- site
 ---
 
 ## What happened?

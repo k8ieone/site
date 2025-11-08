@@ -7,6 +7,8 @@ summary: |
 date: 2025-10-19T23:22:01+02:00
 params:
   display_toc: true
+tags:
+- site
 ---
 
 ## Update time!

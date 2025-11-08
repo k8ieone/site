@@ -6,7 +6,6 @@ lastmod: 2025-11-08
 tags:
 - technology
 - gnome
-- mpd
 params:
   disclaimer: |
     1. You're looking at a very old post. My understanding of GTK and related

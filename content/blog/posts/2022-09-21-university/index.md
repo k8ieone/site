@@ -3,7 +3,6 @@ title: University life
 description: It's pretty cool... so far
 date: 2022-09-21T17:37:00-02:00
 tags:
-- university
 - life
 ---
 
