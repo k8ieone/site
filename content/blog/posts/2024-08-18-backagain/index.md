@@ -4,11 +4,11 @@ summary: |
   It's been a while... But I'm back!
   New static site generator, newfound passion for working on the site!
 date: 2024-08-18
+lastmod: 2025-11-08
 ---
 
 ## What happened?
 
-I guess I just lost interest?
 After I initially got the site running with Jekyll ~2 years ago I was really happy with it.
 But I quickly realized that Jekyll was the wrong templating engine choice.
 
@@ -34,7 +34,7 @@ I got rid of the landing page placeholders,
 made it much cleaner and more my style.
 I rewrote the whole thing with Hugo,
 I have automatic site builds when changes happen upstream
-and like the old site, the whole thing is [open-source](https://github.com/k8ieone/site).
+and like the old site, the whole thing is [open-source](https://github.com/k8ieone/site/tree/hugo-old).
 
 
 There are still pretty major issues with how I (or rather someone over at W3C - it's heavily based on their W3CSS templates) made the site. But I'm no web developer. It's good enough for now.
