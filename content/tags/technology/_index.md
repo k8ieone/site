@@ -1,4 +1,5 @@
 ---
 title: Technology
-summary: Tech-related posts
 ---
+
+Tech-related posts
