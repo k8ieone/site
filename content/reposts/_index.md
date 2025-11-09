@@ -1,6 +1,6 @@
 ---
 title: Reposts
-draft: true
+weight: 25
 ---
 This is a place where I post articles from other people that I found interesting and worth sharing.
 
