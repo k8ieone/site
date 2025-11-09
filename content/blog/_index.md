@@ -1,5 +1,6 @@
 ---
 title: Blog
+weight: 15
 ---
 
 > [!NOTE]
