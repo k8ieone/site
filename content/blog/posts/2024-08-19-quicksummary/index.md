@@ -10,7 +10,7 @@ lastmod: 2025-11-08
 params:
   display_toc: true
 tags:
-- life
+- personal
 ---
 
 ## University
