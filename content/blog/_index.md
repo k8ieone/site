@@ -7,4 +7,4 @@ title: Blog
 
 Please excuse the long gaps between posts. I'm not a regular blogger.
 
-This blog is also browsable using [tags](/tags).
+The blog is **fully readable** using the [RSS feed](index.xml). [Tags](/tags) are available for your convinience.
