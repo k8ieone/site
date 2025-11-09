@@ -13,13 +13,13 @@ params:
       I would be honored if you chose to donate to my hijinxes.
       Receiving support for my work is incredibly motivating.
     platforms:
-      # - name: Bitcoin
-      #   address: whatevert
-      #   text: Support me with
-      #   logo: logos/donations/bitcoin.svg
       - name: Liberapay
         address: https://liberapay.com/k8ie
         logo: logos/donations/liberapay.svg
+      - name: Bitcoin
+        address: https://coinos.io/k8ie
+        text: Support me with
+        logo: logos/donations/bitcoin.svg
   #google_site_verification: "insert_token"
   fediverse_creator: "@k8ie@toot.example.com"
   article_author: "Kateřina Medvědová"
