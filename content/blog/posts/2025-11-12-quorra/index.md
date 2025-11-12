@@ -37,7 +37,7 @@ This led me to search for a way to stay in full control of my WebAuthn keys whil
 
 That's why I started Quorra.
 
-Quorra aims to be a simple solution to this problem that works **today** (well, not quite - see the final section of this post).
+Quorra aims to be a simple solution to this problem that works **today** (well, not quite - see the [final section of this post](#call-to-action)).
 
 You have an app on your device. It generates a key pair and sends the public key to your Quorra instance during registration. When you're signing in, your device sends a signed message to the server. The server verifies the message and grants you access.
 
