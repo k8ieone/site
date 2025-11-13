@@ -53,4 +53,10 @@ Unfortunately, I don't have infinite time on my hands, but I'm making good progr
 
 What I struggle with is **motivation** - I don't want to pour time into a project that no one ends up using.
 
-If you're interested, please let me know - in any way. Give the project a star on GitHub, open an issue saying you want this, send me a message on [Matrix](https://matrix.to/#/@k8ieone:example.com) or toot at me on [Mastodon](https://toot.example.com/@k8ie). Write me an email (address is visible on my [GitHub profile](github.com/k8ieone)). If you have a few bucks to spare, even a one-time [donation](/#donate) helps. Any of these things go a long way in keeping me motivated to work on Quorra.
+If you're interested, please let me know - in any way. Give the project a [star](https://github.com/Quorra-Auth/server) on GitHub, open an [issue](https://github.com/Quorra-Auth/server) saying you want this, send me a message on [Matrix](https://matrix.to/#/@k8ieone:example.com) or toot at me on [Mastodon](https://toot.example.com/@k8ie). Write me an email (address is visible on my [GitHub profile](github.com/k8ieone)). If you have a few bucks to spare, even a one-time [donation](/#donate) helps. Any of these things go a long way in keeping me motivated to work on Quorra.
+
+## Links
+
+- Quorra server repo: https://github.com/Quorra-Auth/server
+- Authenticator for Linux: https://github.com/k8ieone/voucher
+- Authenticator for Android: https://github.com/Quorra-Auth/flare
