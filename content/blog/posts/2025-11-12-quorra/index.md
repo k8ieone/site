@@ -43,7 +43,7 @@ You have an app on your device. It generates a key pair and sends the public key
 
 That simple.
 
-The main selling point is that can have multiple devices bound to your Quorra identity. So when you're signing in on your laptop, you **don't need to** reach out for your phone - you can just click a link that wakes up the app holding your key right on your laptop. No passwords. No phone. No pain.
+The main selling point is that you can have multiple devices bound to your Quorra identity. So when you're signing in on your laptop, you **don't need to** reach out for your phone - you can just click a link that wakes up the app holding your key right on your laptop. No passwords. No phone. No pain.
 
 Of course you can also keep just one device and one key for your account. In that case, you can use a QR code displayed in your browser and scan it using the app on your phone. The choice is yours. And yes, it can even be a Linux phone - you just need a working camera and a QR code scanner like [Decoder](https://flathub.org/en/apps/com.belmoussaoui.Decoder) or [Megapixels](https://gitlab.com/megapixels-org/Megapixels).
 
