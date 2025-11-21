@@ -4,7 +4,7 @@ weight: 15
 ---
 
 > [!NOTE]
-> If you enjoy my rambling, please consider [donating](/)!
+> If you enjoy my rambling, please consider [donating](/#donate)!
 
 Please excuse the long gaps between posts. I'm not a regular blogger.
 
