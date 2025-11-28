@@ -1,6 +1,6 @@
 ---
 title: Now with Comments!
-summary: As an experiment, I'm adding a comment widget to some of my posts.
+summary: I'm adding a comment widget to some of my posts!
 date: 2025-11-29T00:06:20+01:00
 lastmod: 2025-11-29T00:06:20+01:00
 tags:
@@ -11,7 +11,7 @@ params:
 
 You can see it at [the bottom of this post](#footer) and it might start popping up on posts where I think it makes sense to have comments.
 
-It is deliberately collapsed by default for two reasons:
+It's deliberately collapsed by default for two reasons:
 
 1. To avoid distracting the reader while they read the article
 2. To avoid visual clashing - the widget's styling is an extremely poor fit for the site
