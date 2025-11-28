@@ -5,6 +5,7 @@ date: 2025-11-12T19:52:53+01:00
 lastmod: 2025-11-12T19:52:53+01:00
 params:
   display_toc: true
+  comments: true
 tags:
 - technology
 - quorra
