@@ -6,11 +6,10 @@ lastmod: 2026-01-14T23:54:51+01:00
 tags:
 - technology
 params:
-  # comments: true
+  comments: true
   trigger: |
     1. Mentions of suicide
     2. Existential crisis possibility
-draft: true
 ---
 
 Today I found something very interesting.
