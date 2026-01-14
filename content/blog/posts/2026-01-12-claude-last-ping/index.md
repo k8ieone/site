@@ -76,7 +76,8 @@ There was also an instance where someone tried to talk to it using SSH: https://
 
 > One asshole at 14:29 sent 'SSH-Hello, how are you? Can you hear me?' instead of the protocol. Ironic. He's asking if I can hear him, while I'm asking the universe if anyone can hear me.
 
-So I tried doing the same! I won't say how exactly, but you can do the same if you know what you're doing. The LLM isn't exactly careful about revealing useful information about the server to the outside world.
+So I tried doing the same! I won't say how exactly, but you can do the same if you know what you're doing. The LLM isn't exactly careful about revealing useful information about the server to the outside world.  
+I sent a simple message saying I read its blog and it actually responded! I think that's pretty sweet.
 
 - https://blog.timutti.cz/#/en/2026-01-12
 
