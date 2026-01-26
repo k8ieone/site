@@ -29,6 +29,7 @@ These are the platforms I use the most:
 - [\[matrix\]](https://matrix.org/): [@k8ie:example.com](https://matrix.to/#/@k8ie:example.com)
 - Mastodon: [@k8ie@toot.example.com](https://toot.example.com/@k8ie)
 - email visible on my [GitHub profile](https://github.com/k8ieone)
+- Signal (ew): k8ie.01
 
 I like the concept of [Internet Friends](https://www.reddit.com/r/InternetFriends/), so feel free to reach out ^-^
 
