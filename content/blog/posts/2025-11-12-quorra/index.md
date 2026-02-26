@@ -2,7 +2,7 @@
 title: Quorra
 summary: Self-hosters deserve better authentication
 date: 2025-11-12T19:52:53+01:00
-lastmod: 2025-11-12T19:52:53+01:00
+lastmod: 2026-02-26T18:17:42+01:00
 params:
   display_toc: true
   comments: true
@@ -13,6 +13,8 @@ tags:
 
 The corporate world realized a long time ago that passwords are obsolete. Unfortunately, FOSS OIDC providers don’t seem to have gotten the memo, and Linux is being left in the dust.
 
+Thankfully, Quorra is here to solve that!
+
 ## The situation
 
 At the time of writing I couldn't find a FOSS OIDC provider that is both simple to deploy and offers passwordless user authentication - without relying on proprietary components or dedicated hardware - while offering multi-device support.
@@ -21,10 +23,10 @@ That was a mouthful...
 
 Okay, let's break it down. My requirements for a good modern authentication system are:
 
-1. FOSS - fully auditable source code for **all components involved**
+1. FOSS - fully auditable source code for **all components involved**, including the authenticator application
 2. Passwordless - passwords [have](https://www.cnbc.com/2017/10/03/yahoo-every-single-account-3-billion-people-affected-in-2013-attack.html) [their](https://nordpass.com/most-common-passwords-list/) [issues](https://www.cpomagazine.com/cyber-security/new-disney-plus-streaming-service-hit-by-credential-stuffing-cyber-attack/) and are cumbersome to use securely
 3. Multi-device - the ability to use the method **anywhere** without having to carry around a specific device
-4. Simple to deploy - suitable for self-hosters looking for a better way to sing in
+4. Simple to deploy - suitable for self-hosters looking for a better way to sign in
 
 ## Why not passkeys
 
@@ -46,15 +48,15 @@ That simple.
 
 The main selling point is that you can have multiple devices bound to your Quorra identity. So when you're signing in on your laptop, you **don't need to** reach out for your phone - you can just click a link that wakes up the app holding your key right on your laptop. No passwords. No phone. No pain.
 
-Of course you can also keep just one device and one key for your account. In that case, you can use a QR code displayed in your browser and scan it using the app on your phone. The choice is yours. And yes, it can even be a Linux phone - you just need a working camera and a QR code scanner like [Decoder](https://flathub.org/en/apps/com.belmoussaoui.Decoder) or [Megapixels](https://gitlab.com/megapixels-org/Megapixels).
+Of course you can also keep just one device and one key for your account. In that case, you can use a QR code displayed in your browser and scan it using the app on your phone. The **choice is yours**. And yes, it can even be a Linux phone - you just need a working camera and a QR code scanner like [Decoder](https://flathub.org/en/apps/com.belmoussaoui.Decoder) or [Megapixels](https://gitlab.com/megapixels-org/Megapixels).
 
 ## Call to action
 
-Unfortunately, I don't have infinite time on my hands, but I'm making good progress. I already have a [basic OIDC provider implementation](https://github.com/Quorra-Auth/server), an [Android app](https://github.com/Quorra-Auth/flare) written in Flutter and an [app for Linux](https://github.com/k8ieone/voucher) written using GTK4 and Python. I'm also working on setting up a public demo so you can try it for yourself.
+Unfortunately, I don't have infinite time on my hands, but I'm making good progress. I already have a [basic OIDC provider implementation](https://github.com/Quorra-Auth/server), an [Android authenticator app](https://github.com/Quorra-Auth/flare) written in Flutter and another [authenticator app for Linux](https://github.com/k8ieone/voucher) written using GTK4 and Python. I'm also working on setting up a public demo so you can try it and see for yourself.
 
 What I struggle with is **motivation** - I don't want to pour time into a project that no one ends up using.
 
-If you're interested, please let me know - in any way. Give the project a [star](https://github.com/Quorra-Auth/server) on GitHub, open an [issue](https://github.com/Quorra-Auth/server) saying you want this, send me a message on [Matrix](https://matrix.to/#/@k8ieone:example.com) or toot at me on [Mastodon](https://toot.example.com/@k8ie). Write me an email (address is visible on my [GitHub profile](github.com/k8ieone)). If you have a few bucks to spare, even a one-time [donation](/#donate) helps. Any of these things go a long way in keeping me motivated to work on Quorra.
+If you're interested, please let me know - in any way. Give the project a [star](https://github.com/Quorra-Auth/server) on GitHub, open an [issue](https://github.com/Quorra-Auth/server) saying you want this, send me a message on [Matrix](https://matrix.to/#/@k8ie:example.com) or toot at me on [Mastodon](https://toot.example.com/@k8ie). Write me an email (address is visible on my [GitHub profile](github.com/k8ieone)). If you have a few bucks to spare, even a one-time [donation](/#donate) helps. Any of these things go a long way in keeping me motivated to work on Quorra.
 
 ## Links
 
