@@ -15,46 +15,48 @@ Welcome to the first Quorra update! I have a number of exciting updates to share
 
 ## Standardized wording and terms
 
-Since "Quorra client" sounds technical, is a mouthful and is a bit ambiguous (Quorra client could also mean OIDC client), I'm standardizing a few terms.
+Since "Quorra client" is technical, ambiguous, and a mouthful, I'm standardizing a few terms.
+
+- Lightning wallet - an app many people already have; can now be used to log into Quorra
+- Keychain - a minimal app for people who don’t want a wallet; login-only; no payments; no currencies
+- Quorra server - the OIDC provider
+
+Keychain applications are purpose-built for login. Keychains can also have Quorra-specific features and can provide UX not normally possible on wallets.
 
 I'm hoping this will make the Quorra ecosystem easier to navigate and simpler to grasp.
 
-- Lightning wallet - an app many people already have; can now be used to log into Quorra
-- Keychain - a minimal app for people who don’t want a wallet; login-only; no crypto
-- Quorra server - the OIDC provider
-
-Keychain applications are purpose-built just to allow you to log in. Keychains can also have custom functionality speciffic to Quorra and better UX.
-
-## Quorra adopts Lightning auth
+## Quorra adopts Lightning
 
 We're lighting up the sky with this one!
 
 ### What does that mean?
 
-"Lightning auth" here is just a standardized way to prove you control a key. It's usually implemented by Bitcoin Lightning wallets. No payments are involved with Quorra, it's just used as a standard.
+"Lightning auth" (LNURL-auth) here is just a standardized way to prove you control a key. It's usually implemented by Bitcoin Lightning wallets. No payments are involved and you don’t need a wallet. Lightning is just used as a standard to build upon. Keychain apps remain a first-class option.
+
+I don't want to shove crypto into people's faces or tell them to use a crypto wallet just to log in. My goal is to provide options.
+
+LNURL-auth has a number of benefits:
 
 - **Each website gets a different login key, automatically:** keys are deterministically derived per domain
-- **Crypto users are able to use their existing Lightning wallet** (e.g. [Phoenix](https://phoenix.acinq.co/), [Zeus](https://zeusln.com/), [Misty Breez](https://breez.technology/misty/)) with Quorra
-- **No change for existing Quorra users:** keychain applications continue to work for non-crypto users
+- **People who already use Lightning wallets don't need a separate app:** wallet applications like [Phoenix](https://phoenix.acinq.co/), [Zeus](https://zeusln.com/), [Misty Breez](https://breez.technology/misty/) are all automatically compatible
+- **No change for existing Quorra users:** keychain applications continue to work for users who don't want to use wallets
 - **Moving to a new device can be as easy as restoring a backup phrase:** this uses a standard [BIP39 mnemonic code](https://cryobackup.com/pages/bip39-list)
-- **Keychain apps can be used on other LNURL-auth services:** this is particularly great for Lightning node operators using NWC; LNURL-auth usually doesn't work over NWC which forces users to have two wallet applications - one for auth, one for everything else
-
-The goal is to be neutral and unbiased to users. I don't want to shove crypto into people's faces or tell them to use a crypto wallet just to log in. My goal is to provide options.
+- **Keychain apps can be used for other LNURL-auth services:** this is particularly great for Lightning node operators using NWC; LNURL-auth usually doesn't work over NWC which forces users to have two wallet applications - one for auth, one for everything else
 
 ### Why?
 
-When I started Quorra, I implemented my own custom logic for keychain <-> server communication. This was mainly so that I could quickly prototype features and get my hands dirty.
+When I started Quorra, I implemented my own custom logic for keychain <-> server communication. This was mainly so that I could quickly prototype features and get my hands dirty. I wanted to move fast without being constrained by a protocol too early.
 
-I also didn't want to deal with the potential limitations of an existing protocol.
+Now that the project has gained a bit of maturity, I think it's time to consider existing options and stop reinventing the wheel. LNURL-auth ticks all the boxes for me:
 
-Now that the project has gained a bit of maturity, I think it's time to consider existing options to stop reinventing the wheel. LNURL-auth ticks all the boxes for me
-
-- Simple to use
+- It's simple to use
 - Allows both QR and URI handling
-- Extensible (custom parameters are ignored by wallets, allowing custom logic to be applied by keychain apps)
-- Already well-established
+- Extensible: custom parameters are ignored by wallets, allowing custom logic to be applied by keychain apps
+- Already well-established with a thriving ecosystem
 
-LNURL-auth was a huge inspiration for starting Quorra. Now I'm extremely excited to announce LNURL-auth support in Quorra!
+LNURL-auth was a huge inspiration for starting Quorra and now I'm extremely excited to announce its support in Quorra!
+
+I'm hoping this will make Quorra simpler to use, easier to maintain long-term and allow it to integrate with existing tools.
 
 ## Reworked onboarding and auth front-end
 
@@ -82,4 +84,15 @@ TODO: Show
 
 ## What to expect in the future
 
-My plan 
+When I have news to share, I'll post a new blog entry. Be sure to check the [Quorra category](../../tags/quorra) regularly or subscribe to it [using RSS](../../tags/quorra/index.xml)!
+
+I also created a [board on GiHub](https://github.com/orgs/Quorra-Auth/projects/3) to track the current progress, but the board is fairly developer-focused.
+
+The current (very rough) plan, as of {{< date_created >}}, is to:
+
+- Update Flare to support LNURL-auth
+- Improve [Voucher](https://github.com/k8ieone/voucher)'s UX
+- Continue the frontend improvements
+- Start implementing the self-service and admin interface
+
+See you in the next update!
