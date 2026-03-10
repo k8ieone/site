@@ -25,13 +25,9 @@ how I spend my free time since I can work on homework in that time.
 
 Some lectures are pretty useless and boring.
 Some are extremely important and boring.
-And some are very pleasant but totally useless.
+Some are very pleasant but totally useless.
+And some are much more difficult than I expected.
 
-The IB111 ("Foundations of Programming") class is the one I'm the most
-scared of at the moment.
-I was expecting a subject with *foundations* to be pretty
-easy for me since I had the literal subject of programming for 4 years.
-I couldn't be more wrong.
 They already expect us to solve problems with quadratic equations,
 right-angle triangles, Fibonacci sequences, prime numbers, etc.
 Just taking a peek at the homework makes my head hurt.
