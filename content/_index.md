@@ -7,14 +7,15 @@ title: k8ie
 Welcome to my personal site! My name is **Kateřina Medvědová**,
 and I work as a DevOps engineer — it’s both my profession and my main hobby.
 
+I’m a strong privacy advocate, both online and offline. I believe in individual freedom and I'm a huge FOSS supporter. My (a)political views generally align with voluntarism. I despise big tech, huge corporations and governments.
+
 I self-host a variety of services at home and love experimenting
 with infrastructure, automation, and open-source tools.
 
-Outside of tech, I enjoy photography, 3D modeling in Blender, and flying FPV
-drones — pretty much anything that lets me combine creativity with technology.
+I'm also known for trying too hard to keep using old stuff.
 
-I’m also a strong privacy advocate, both online and offline.
-In my view, companies and governments these days have far too little respect for user data.
+Outside of tech, I enjoy photography, 3D modeling in Blender, and flying FPV
+drones — all are things that let me combine creativity with technology.
 
 I have a [Blog](/blog) where I talk about some of the things that interest me. I welcome you to take a look.
 
@@ -29,9 +30,9 @@ These are the platforms I use the most:
 - [\[matrix\]](https://matrix.org/): [@k8ie:example.com](https://matrix.to/#/@k8ie:example.com)
 - Mastodon: [@k8ie@toot.example.com](https://toot.example.com/@k8ie)
 - email visible on my [GitHub profile](https://github.com/k8ieone)
-- Signal (ew): k8ie.01
+- Signal (eww, centralized): k8ie.01
 
-I like the concept of [Internet Friends](https://www.reddit.com/r/InternetFriends/), so feel free to reach out ^-^
+I like the concept of [Internet Friends](https://www.reddit.com/r/InternetFriends/), so I'd be happy if you reach out ^-^
 
 ## Forges and stuff
 
