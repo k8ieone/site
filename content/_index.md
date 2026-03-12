@@ -4,18 +4,15 @@ title: k8ie
 
 ## Introduction
 
-Welcome to my personal site! My name is **Kateřina Medvědová**,
-and I work as a DevOps engineer — it’s both my profession and my main hobby.
+Welcome to my personal site! My name is **Kateřina Medvědová**.
+I’m a FOSS advocate, a privacy enthusiast, and a DevOps engineer.
 
-I’m a strong privacy advocate, both online and offline. I believe in individual freedom and I'm a huge FOSS supporter. My (a)political views generally align with voluntarism. I despise big tech, huge corporations and governments.
-
-I self-host a variety of services at home and love experimenting
-with infrastructure, automation, and open-source tools.
+I believe in individual choice, freedom and user-controlled technology. Because of this, I self-host a variety of services at home and spend a lot of my time experimenting with infrastructure, automation, and open-source tools.
 
 I'm also known for trying too hard to keep using old stuff.
 
-Outside of tech, I enjoy photography, 3D modeling in Blender, and flying FPV
-drones — all are things that let me combine creativity with technology.
+Whether it's my day job or my hobbies, I love working on things that combine creativity with technology.
+Outside of the server room, I enjoy photography, 3D modeling in Blender, flying FPV drones and exploring great narrative worlds across movies and TV, especially in sci-fi.
 
 I have a [Blog](/blog) where I talk about some of the things that interest me. I welcome you to take a look.
 
