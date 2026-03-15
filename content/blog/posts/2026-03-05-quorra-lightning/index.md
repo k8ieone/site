@@ -19,11 +19,22 @@ Since "Quorra client" is technical, ambiguous, and a mouthful, I'm standardizing
 
 - Lightning wallet - an app many people already have; can now be used to log into Quorra
 - Keychain - a minimal app for people who don’t want a wallet; login-only; no payments; no currencies
-- Quorra server - the OIDC provider
+- Quorra server - the OIDC provider which uses LNURL-auth
 
 Keychain applications are purpose-built for login. Keychains can also have Quorra-specific features and can provide UX not normally possible on wallets.
 
 I'm hoping this will make the Quorra ecosystem easier to navigate and simpler to grasp.
+
+## Voucher becomes referential
+
+With the refined wording comes a new exciting change for [Voucher](https://github.com/k8ieone/voucher)! Voucher now serves as the reference keychain implementation.
+
+This means that Voucher represents the features and UX that all keychains should strive to have.
+This also means that Voucher will be the first to receive new features and will likely see the most development time of all first-party keychain applications. 
+
+TODO: Show a Voucher screenshot
+
+I'm hoping to create a "keychain feature checklist" for developers once I've prototyped and stabilized them in Voucher.
 
 ## Quorra adopts Lightning
 
@@ -33,7 +44,7 @@ We're lighting up the sky with this one!
 
 "Lightning auth" (LNURL-auth) here is just a standardized way to prove you control a key. It's usually implemented by Bitcoin Lightning wallets. No payments are involved and you don’t need a wallet. Lightning is just used as a standard to build upon. Keychain apps remain a first-class option.
 
-I don't want to shove crypto into people's faces or tell them to use a crypto wallet just to log in. My goal is to provide options.
+I don't want to shove crypto into people's faces or tell them to use a crypto wallet just to log in. My goal is to provide options without bias.
 
 LNURL-auth has a number of benefits:
 
@@ -90,9 +101,10 @@ I also created a [board on GiHub](https://github.com/orgs/Quorra-Auth/projects/3
 
 The current (very rough) plan, as of {{< date_created >}}, is to:
 
-- Update Flare to support LNURL-auth
-- Improve [Voucher](https://github.com/k8ieone/voucher)'s UX
-- Continue the frontend improvements
-- Start implementing the self-service and admin interface
+- Implement key management into Voucher
+- Get an icon for Voucher and publish it on Flathub
+- A few more frontend improvements
+- Get a live demo working
+- Start implementing the self-service and admin interface!
 
 See you in the next update!
