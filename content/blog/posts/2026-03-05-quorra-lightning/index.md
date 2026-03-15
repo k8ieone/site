@@ -2,6 +2,7 @@
 title: Bringing Lightning to Quorra
 summary: Taking Quorra in a new direction
 date: 2026-03-05T00:12:36+01:00
+lastmod: 2026-03-15T10:33:29+01:00
 draft: true
 params:
   display_toc: true
