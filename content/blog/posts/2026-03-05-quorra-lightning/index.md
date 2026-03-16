@@ -43,7 +43,7 @@ We're lighting up the sky with this one!
 
 ### What does that mean?
 
-"Lightning auth" (LNURL-auth) here is just a standardized way to prove you control a key. It's usually implemented by Bitcoin Lightning wallets. No payments are involved and you don’t need a wallet. Lightning is just used as a standard to build upon. Keychain apps remain a first-class option.
+**Lightning auth** (LNURL-auth) here is just a standardized way to prove you control a key. It's usually implemented by Bitcoin Lightning wallets. No payments are involved and you don’t need a wallet. Lightning is just used as a standard to build upon. Keychain apps remain a first-class option.
 
 I don't want to shove crypto into people's faces or tell them to use a crypto wallet just to log in. My goal is to provide options without bias.
 
@@ -66,7 +66,7 @@ Now that the project has gained a bit of maturity, I think it's time to consider
 - Extensible: custom parameters are ignored by wallets, allowing custom logic to be applied by keychain apps
 - Already well-established with a thriving ecosystem
 
-LNURL-auth was a huge inspiration for starting Quorra and now I'm extremely excited to announce its support in Quorra!
+LNURL-auth was a huge inspiration for starting this project and now I'm extremely excited to announce its integration into Quorra!
 
 I'm hoping this will make Quorra simpler to use, easier to maintain long-term and allow it to integrate with existing tools.
 
@@ -80,7 +80,7 @@ The frontend is now subtly animated
 
 TODO: Show
 
-The frontend now shows the OIDC application friendly name and URL
+The frontend now shows the OIDC application name and URL
 
 Insecure (HTTP) redirects show a visual warning
 
@@ -106,6 +106,7 @@ The current (very rough) plan, as of {{< date_created >}}, is to:
 - Get an icon for Voucher and publish it on Flathub
 - A few more frontend improvements
 - Get a live demo working
+- Create documentation for running your own server
 - Start implementing the self-service and admin interface!
 
 See you in the next update!
