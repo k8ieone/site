@@ -16,7 +16,7 @@ Welcome to the first Quorra update! I have a number of exciting updates to share
 
 ## Standardized wording and terms
 
-Since "Quorra client" is technical, ambiguous, and a mouthful, I'm standardizing a few terms.
+Since "Quorra client" is technical, ambiguous, and a mouthful, I'm introducing a new term for them: **keychains**!
 
 - Lightning wallet - an app many people already have; can now be used to log into Quorra
 - Keychain - a minimal app for people who don’t want a wallet; login-only; no payments; no currencies
