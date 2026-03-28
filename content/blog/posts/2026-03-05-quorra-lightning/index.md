@@ -14,7 +14,7 @@ tags:
 
 Welcome to the first Quorra update! I have a number of exciting updates to share, so please, read on.
 
-## Standardized wording and terms
+## Standardized Wording and Terms
 
 Since "Quorra client" is technical, ambiguous, and a mouthful, I'm introducing a new term for them: **keychains**!
 
@@ -26,7 +26,7 @@ Keychain applications are purpose-built for login. Keychains can also have Quorr
 
 I'm hoping this will make the Quorra ecosystem easier to navigate and simpler to grasp.
 
-## Voucher becomes referential
+## Voucher Becomes Referential
 
 With the refined wording comes a new exciting change for [Voucher](https://github.com/k8ieone/voucher)! Voucher now serves as the reference keychain implementation.
 
@@ -37,11 +37,11 @@ TODO: Show a Voucher screenshot
 
 I'm hoping to create a "keychain feature checklist" for developers once I've prototyped and stabilized them in Voucher.
 
-## Quorra adopts Lightning
+## Quorra Adopts Lightning
 
 We're lighting up the sky with this one!
 
-### What does that mean?
+### What Does That Mean?
 
 **Lightning auth** (LNURL-auth) here is just a standardized way to prove you control a key. It's usually implemented by Bitcoin Lightning wallets. No payments are involved and you don’t need a wallet. Lightning is just used as a standard to build upon. Keychain apps remain a first-class option.
 
@@ -70,7 +70,7 @@ LNURL-auth was a huge inspiration for starting this project and now I'm extremel
 
 I'm hoping this will make Quorra simpler to use, easier to maintain long-term and allow it to integrate with existing tools.
 
-## Reworked onboarding and auth front-end
+## Reworked Onboarding and Login Front-End
 
 The onboarding frontend now gives a brief overview of what Quorra allows the user to do
 
@@ -94,7 +94,7 @@ As well as to the OS accent color (where supported by browser and OS)
 
 TODO: Show
 
-## What to expect in the future
+## What to Expect in the Future
 
 When I have news to share, I'll post a new blog entry. Be sure to check the [Quorra category](../../tags/quorra) regularly or subscribe to it [using RSS](../../tags/quorra/index.xml)!
 
