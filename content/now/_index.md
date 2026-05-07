@@ -8,4 +8,4 @@ lastmod: 2026-05-07
 
 I'm taking a hiatus from my personal projects and I'm focusing on myself.
 
-I can't wait to come back, [Quorra](/blog/posts/2025-11-12-quorra/) is waiting for me!
+I'm looking forward to coming back, [Quorra](/blog/posts/2025-11-12-quorra/) is waiting for me!
