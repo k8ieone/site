@@ -26,10 +26,10 @@ nice overall as well.
 
 ## Where's the work?
 
-The work lies beneath the surface. The original site was templated using [Jekyll](https://jekyllrb.com/), my old *friend*.
+The work lies beneath the surface. The original site was templated using [Jekyll](https://jekyllrb.com/), my old *"friend"*.
 
-It also wasn't created as a template (or theme, depending on which vocabulary you prefer to use),
-instead it was created with only the author's site in mind. Kinda like my [old site](https://github.com/k8ieone/site/tree/hugo-old).
+It also wasn't made as a template (or theme, depending on which vocabulary you prefer to use),
+instead it was made only with the author's site in mind. Kinda like my [old site](https://github.com/k8ieone/site/tree/hugo-old).
 
 This weekend, {{< last_updated >}} that is, I dove deep into the original code
 and adopted it to work as a [Hugo](https://gohugo.io/) theme! In doing so, I have
