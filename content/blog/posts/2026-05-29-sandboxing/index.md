@@ -2,7 +2,7 @@
 title: Rebuilding for a Post-Trust World
 summary: We need to do a better job of securing our desktops.
 date: 2026-05-29T15:46:14+02:00
-lastmod: 2026-05-29T18:24:48+02:00
+lastmod: 2026-06-02T10:43:43+02:00
 tags:
 - technology
 - personal
@@ -27,6 +27,7 @@ If you think I'm exaggerating or just being paranoid, take a look at these suppl
 - https://docs.litellm.ai/blog/security-update-march-2026
 - https://safedep.io/mass-npm-supply-chain-attack-tanstack-mistral/
 - https://safedep.io/mini-shai-hulud-strikes-again-314-npm-packages-compromised
+- https://safedep.io/redhat-cloud-services-hit-by-mini-shai-hulud-npm-worm/
 - https://safedep.io/malicious-node-ipc-npm-compromise
 
 Even more concerning is the rise of vulnerabilities like [copy.fail](https://copy.fail) and [DirtyFrag](https://github.com/V4bel/dirtyfrag). When combined with e.g. [Nginx-Rift](https://github.com/DepthFirstDisclosures/Nginx-Rift) -- an 18-year-old remote code execution vulnerability in Nginx -- it gives attackers zero-click remote root access, even if using the very sandboxing techniques I'm about to discuss!
@@ -148,3 +149,7 @@ And it's waaaaay better than giving **every** program on my computer access to t
 Obviously it's not all bulletproof. Like mentioned at the start, kernel vulnerabilities can still cause sandboxing to be completely ineffective.
 
 The goal is to be better, not perfect.
+
+## Article Revisions
+
+- July 2nd, 2026 - added [another supply chain attack](https://safedep.io/redhat-cloud-services-hit-by-mini-shai-hulud-npm-worm/)
