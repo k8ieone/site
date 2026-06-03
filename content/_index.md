@@ -24,8 +24,8 @@ If you use PGP to encrypt things, [here's](/pubkey.asc) my public key.
 
 These are the platforms I use the most:
 
-- [\[matrix\]](https://matrix.org/): [@k8ie:example.com](https://matrix.to/#/@k8ie:example.com)
-- Mastodon: [@k8ie@toot.example.com](https://toot.example.com/@k8ie)
+- [\[matrix\]](https://matrix.org/): [@k8ie:mcld.eu](https://matrix.to/#/@k8ie:mcld.eu)
+- Mastodon: [@k8ie@toot.mcld.eu](https://toot.mcld.eu/@k8ie)
 - email visible on my [GitHub profile](https://github.com/k8ieone)
 - Signal (eww, centralized): k8ie.01
 
