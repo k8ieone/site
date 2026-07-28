@@ -26,6 +26,7 @@ These are the platforms I use the most:
 
 - [\[matrix\]](https://matrix.org/): [@k8ie:mcld.eu](https://matrix.to/#/@k8ie:mcld.eu)
 - Mastodon: [@k8ie@toot.mcld.eu](https://toot.mcld.eu/@k8ie)
+- Vernissage: [@k8ie@pix.mcld.eu](https://pix.mcld.eu/@k8ie)
 - email visible on my [GitHub profile](https://github.com/k8ieone)
 - Signal (eww, centralized): k8ie.01
 
