@@ -23,6 +23,9 @@ params:
   #google_site_verification: "insert_token"
   fediverse_creator: "@k8ie@toot.mcld.eu"
   article_author: "Kateřina Medvědová"
+  head_snippets:
+  - '<link rel="me" href="https://toot.mcld.eu/@k8ie">'
+  - '<link rel="me" href="https://pix.mcld.eu/@k8ie">'
   comments_html_snippet: |
     <section class="toc">
       <details class="card">
