@@ -28,6 +28,11 @@ Some are extremely important and boring.
 Some are very pleasant but totally useless.
 And some are much more difficult than I expected.
 
+The IB111 ("Foundations of Programming") class is the one I'm scared of
+the most at the moment.
+I was expecting a subject with *foundations* in its name to be pretty
+easy for me since I had the subject of programming for 4 years at this point.
+I couldn't be more wrong.
 They already expect us to solve problems with quadratic equations,
 right-angle triangles, Fibonacci sequences, prime numbers, etc.
 Just taking a peek at the homework makes my head hurt.
