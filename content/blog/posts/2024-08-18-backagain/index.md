@@ -4,10 +4,14 @@ summary: |
   It's been a while... But I'm back!
   New static site generator, newfound passion for working on the site!
 date: 2024-08-18
-lastmod: 2025-11-08
+lastmod: 2026-09-22
 tags:
 - site
 ---
+
+> [!NOTE]
+> This article is talking about an older design of the site, not the current one.
+> That being said, the templating changes introduced in this article are still in place today. The site got a [visual overhaul](../2025-10-19-new-site/) later to make it what it is today.
 
 ## What happened?
 
@@ -39,7 +43,7 @@ I have automatic site builds when changes happen upstream
 and like the old site, the whole thing is [open-source](https://github.com/k8ieone/site/tree/hugo-old).
 
 
-There are still pretty major issues with how I (or rather someone over at W3C - it's heavily based on their W3CSS templates) made the site. But I'm no web developer. It's good enough for now.
+There are still pretty major issues with how I (or rather someone over at W3C -- it's heavily based on their W3CSS templates; [this one](https://www.w3schools.com/w3css/tryw3css_templates_parallax.htm) and [this one](https://www.w3schools.com/w3css/tryw3css_templates_blog.htm)) made the site. But I'm no web developer. It's good enough for now.
 
 
 Expect more content very soon.
