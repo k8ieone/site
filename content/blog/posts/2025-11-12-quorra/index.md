@@ -15,6 +15,8 @@ The corporate world realized a long time ago that passwords are obsolete. Unfort
 
 Thankfully, Quorra is here to solve that!
 
+![Screenshot of the Quorra login screen](quorra.png)
+
 ## The situation
 
 At the time of writing I couldn't find a FOSS OIDC provider that is both simple to deploy and offers passwordless user authentication - without relying on proprietary components or dedicated hardware - while offering multi-device support.
